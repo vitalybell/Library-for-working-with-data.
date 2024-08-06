@@ -6,7 +6,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.utils import executor
 
 
-api = '7457141033:AAGe79bjZCBU5QAUiqgVNG4IEPKUAEXChgQ'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
